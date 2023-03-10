@@ -12,6 +12,7 @@
              (first-idx 5 -1) => 5
              (first-idx 5 3) => 3"
   #?(:clj  [^long a ^long b]
+     :cljd [a b]      
      :cljs [a b])
   (if (== a -1)
     b
